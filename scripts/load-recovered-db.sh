@@ -22,7 +22,7 @@
 # =====================================================================
 set -euo pipefail
 
-REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/../../.." && pwd)"
+REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 RECOVERED="${REPO_ROOT}/backup_recover/recovered"
 DB_NAME="${1:-phpbb}"
 CONTAINER="phpbb-mariadb"

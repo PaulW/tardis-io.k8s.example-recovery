@@ -1,0 +1,12 @@
+# The Python bytecode, from running the scripts.
+__pycache__/
+*.pyc
+
+# The local state, if the scripts are run here.
+.env
+*.local
+
+# The recovery output. None of this belongs in the repository.
+recovered/
+snapshots/
+*.sql.gz
